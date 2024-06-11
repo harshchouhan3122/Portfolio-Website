@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HarshChouhan_Resume</title>
+    <title>Harsh Chouhan</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon_Harsh.png">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/421f530682.js" crossorigin="anonymous"></script>       <!-- Icons From FontAwesome Website --> 
+
 </head>
 <body>
     <div id="header">
@@ -16,8 +18,8 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
@@ -26,7 +28,8 @@
             </nav>
             <div class="header-text">
                 <p>Software Engineer</p>
-                <h1>Hi, I'm <span> Harsh </span> <br> Chouhan from INDIA. </h1>
+                <!-- <h1>Hi, I'm <span> Harsh </span> <br> Chouhan from INDIA. </h1> -->
+                <h1>Hi, I'm <span> Harsh Chouhan</span> <br> from INDIA. </h1>
             </div>
         </div>
     </div>
@@ -34,9 +37,9 @@
     <!--------------------------------------------- ABOUT Section ------------------------------------------>
     <div id="about">
         <div class="container">
-            <div class="row">
+            <div class="row-about">
                 <div class="about-col-1">
-                    <img src="./images/img.jpeg" alt="userImage">
+                    <img src="./images/img.png" alt="HarshChouhan">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
@@ -46,37 +49,41 @@
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                         <p class="tab-links" onclick="opentab('achievement')">Achievements </p>
+                        <!-- <p class="tab-links" onclick="opentab('score')">Score Cards</p> -->
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Electronic Circuit Designing</span><br>PCB Designing, Soldering</li>
-                            <li><span>Web Development</span><br>HTML, CSS, Javascript</li>
-                            <li><span>Embedded Programming</span><br>8051 uC, Aurduino, ATMega16 uC</li>
-                            <li><span>IT Programming</span><br>Python, Java, SQL, DSA</li>
-                            <li><span>Software Packages</span><br>Git/Github, VS Code, Canva/Figma, Keil, Auduino</li>
-                            <li><span>Soft Skills</span><br>Marketing Skills, Creativity, Communication Skills, Leadership Qualities </li>
+                            <li><span>Programming</span><br> • Python • Java • Javascript  • SQL </li>
+                            <li><span>Web Development</span><br> • HTML  • CSS    • Bootstrap  • EJS  • ExpressJS • REST • Data Visualization</li>
+                            <!-- <li><span>Electronic Circuit Designing</span><br>PCB Designing, Soldering</li> -->
+                            <!-- <li><span>Embedded Programming</span><br>8051 uC, Aurduino, Raspberrypi, ATMega16 uC</li> -->
+                            <li><span>Software Packages</span><br> • Git/Github • PyQt Designer • Excel • Canva/Figma • Auduino • BusMaster (CAN)</li>
+                            <li><span>Soft Skills</span><br> • Marketing Skills • Creativity • Communication Skills • Leadership Qualities </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Research Intern | ISSA lab DRDO, Delhi | (July-Aug 2022)</span><br> Data Visualization and Analytical Study of Radar Systems and effects of parameters of RADAR on Radars and Jammers.</li>
-                            <li><span>Ninja Entrepreneur | Coding Ninjas | (Jan-June 2022)</span><br>I helped my colleagues and aware them @Coding Ninjas different programs including Internships, Scholarships 
+                            <li><span>Software Engineer Intern | Devise Electronics, Pune | (May 2024-Present)</span><br> •  Designed an Authentication System for Keyless Operation of EV. <br>  •  Working on HMI GUI Designing.</li>
+                            <li><span>Web Developer & Designing Intern | Edunet Foundation, Nagpur | (Jan-March 2024)</span><br> • Created responsive websites with HTML, CSS, and JavaScript for optimal user experience <a style="color: rgb(148, 171, 190); text-decoration: none;" target="_blank" href="https://harshchouhan3122.github.io/YCCE-Study_HUB/">(YCCE-StudyHUB)</a>.</li>
+                            <li><span>Research Intern | ISSA lab DRDO, Delhi | (July-Aug 2022)</span><br> • Data Visualization and Analytical Study of Radar Systems and effects of parameters of RADAR on Radars and Jammers.</li>
+                            <li><span>Ninja Entrepreneur | Coding Ninjas | (Jan-June 2022)</span><br>  • I helped my colleagues and aware them @Coding Ninjas different programs including Internships, Scholarships 
                                 and Courses etc.</li>
-                            <li><span>Campus Ambassador | Let Grow More | (Jan-Feb 2022)</span><br> I helped my colleagues and aware them regarding various opportunities to grow themselves. </li>
+                            <li><span>Campus Ambassador | Let Grow More | (Jan-Feb 2022)</span><br> • I helped my colleagues and aware them regarding various opportunities to grow themselves. </li>
 
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>B.Tech | Electronics and Telecommunications | 2024</span><br>SGPA : 8.7 (4<sup>th</sup> Sem, July 2022)<br> CGPA : 8.43<br> From Yeshwantrao Chavan College of Engineering, Nagpur</li>
-                            <li><span>CLASS XII (HSC) | PCM | 2020</span><br>Score : 83.5% <br> From Kendriya Vidyalaya Shalimar Bagh, Delhi</li>
-                            <li><span>CLASS XII (SSC) | 2018</span><br>Score : 91% <br> From Kendriya Vidyalaya No.1 Chhindwara, MP</li>
+                            <li><span>B.Tech | Electronics and Telecommunication Engineering | 2020-2024</span><br> CGPA : 8.65 <br> Per : 79.00 % <br> From Yeshwantrao Chavan College of Engineering, Nagpur</li>
+                            <li><span>CLASS XII (HSC) | PCM | 2020</span><br>Score : 83.50 % <br> From Kendriya Vidyalaya Shalimar Bagh, Delhi</li>
+                            <li><span>CLASS X (SSC) | 2018</span><br>Score : 91.00 % <br> From Kendriya Vidyalaya No.1 Chhindwara, MP</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="achievement">
                         <ul>
-                            <li><span>Certifications / Licences</span><br>June,2022 | Microprocessors and Microcontrollers [IIT Kharagpur, NPTEL, 12 weeks] <br>  Oct,2021 | NPTEL | The joy of computing using Python [IIT Madras, NPTEL, 12 weeks] </li>
-                            <li><span>Sports</span><br>Oct 2022 | Nagpur University Sports (Badminton) <br> June,2019 | Delhi Regional Sports (Badminton) </li>
+                            <li><span>Certifications / Licences</span><br>• June,2022 | Microprocessors and Microcontrollers [IIT Kharagpur, NPTEL, 12 weeks] <br>  • Oct,2021 | NPTEL | The joy of computing using Python [IIT Madras, NPTEL, 12 weeks] </li>
+                            <li><span>Sports</span><br>• Oct 2022 | Nagpur University Sports (Badminton) <br> • June,2019 | Delhi Regional Sports (Badminton) </li>
+                            <li><span>Responsibilities</span><br> • Database Head | ICON23.0 <br> • Technical Head | IRU22.0 <br> • Contributor | GDSC  </li>
                         </ul>
                     </div>
 
@@ -112,7 +119,8 @@
     <!------------------------------------------ My Work Section------------------------------------------>
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <!-- <h1 class="sub-title">My Work</h1> -->
+            <h1 class="sub-title">Projects</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="./images/work1.jpg" alt="">
@@ -153,13 +161,16 @@
                     <p><i class="fa-solid fa-paper-plane"></i>harshchouhanycce2020@gmail.com</p>
                     <p><i class="fa-solid fa-phone-volume"></i>+91 70421 37441</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://x.com/harshchouhan312"><i class="fa-brands fa-twitter-square"></i></a>
-                        <a href="https://www.instagram.com/harshchouhan3122/"><i class="fa-brands fa-instagram"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
                         <a href="https://www.linkedin.com/in/harshchouhan3122/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/harshchouhan3122/"><i class="fa-brands fa-github "></i></a>
+                        <a href="https://www.instagram.com/harshchouhan3122/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/harshchouhan312"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://leetcode.com/harsh3122/" target="_blank" class="icon"><i class="fa-solid fa-code"></i></a>
+
                     </div>
-                    <a href="./images/Harsh_Chouhan_Resume-IT.pdf" download class="btn btn2">Download CV</a>
-                </div>
+                    <!-- <a href="./images/Harsh_Chouhan_Resume.pdf" download class="btn btn2" target="_blank">Download Resume</a> -->
+                    <a href="./images/Harsh_Chouhan_Resume.pdf" id="downloadResume" class="btn btn2">Download Resume</a>                </div>
                 <div class="contact-right">
                     <form action="#" name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
@@ -172,7 +183,8 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright <span>&#169;</span> Harsh. <i class="fa-solid fa-heart"></i> Made by Harsh Chouhan</p>
+            <!-- <p>Copyright <span>&#169;</span> Harsh. <i class="fa-solid fa-heart"></i> Made by Harsh Chouhan</p> -->
+            <p>Copyright <span>&#169;</span> Harsh Chouhan.</p>
         </div>
     </div>
 
@@ -194,7 +206,7 @@
         }
     </script>
 
-<!---------------------------- Script for ASideMenu for Small Screen -------------------------------->
+<!---------------------------- Script for a SideMenu for Small Screen -------------------------------->
     <script>
         var sidemenu=document.getElementById("sidemenu");
         function openmenu(){
@@ -203,6 +215,24 @@
         function closemenu(){
             sidemenu.style.right = "-200px";
         }
+    </script>
+
+<!---------------------------- Script for Download Resume -------------------------------->
+    <script>
+        document.getElementById('downloadResume').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default action
+
+            // Open the PDF in a new tab
+            window.open(this.href, '_blank');
+
+            // Create a temporary link element for downloading the file
+            var tempLink = document.createElement('a');
+            tempLink.href = this.href;
+            tempLink.download = 'Harsh_Chouhan_Resume.pdf';
+            document.body.appendChild(tempLink);
+            tempLink.click();
+            document.body.removeChild(tempLink); // Clean up
+        });
     </script>
 
  <!-- Github Link to connect Contact form with Google Sheet: https://github.com/jamiewilson/form-to-google-sheets/ -->
