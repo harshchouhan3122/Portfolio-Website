@@ -35,7 +35,7 @@ document.getElementById('downloadResume').addEventListener('click', function(eve
     // Create a temporary link element for downloading the file
     var tempLink = document.createElement('a');
     tempLink.href = this.href;
-    tempLink.download = 'Harsh_Chouhan_Resume.pdf';
+    tempLink.download = 'HarshChouhan_Resume.pdf';
     document.body.appendChild(tempLink);
     tempLink.click();
     document.body.removeChild(tempLink); // Clean up
