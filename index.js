@@ -102,3 +102,24 @@ form.addEventListener('submit', async (e) => {
 //         })
 //     .catch(error => console.error('Error!', error.message))
 // })
+
+
+
+// Script to See More Projects (Toggle Functionality)
+function unhideContent() {
+    // Select the hidden content div
+    const hiddenContent = document.getElementById("hiddenContent");
+    const projectBtn = document.getElementById("proj-btn");
+
+    // Toggle the visibility
+    if (hiddenContent.classList.contains("hidden")) {
+        hiddenContent.classList.remove("hidden");
+        hiddenContent.classList.add("visible");
+        projectBtn.innerText = "See Less";
+        
+    } else {
+        hiddenContent.classList.remove("visible");
+        hiddenContent.classList.add("hidden");
+        projectBtn.innerText = "See More";
+    }
+}
