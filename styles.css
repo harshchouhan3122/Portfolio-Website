@@ -183,7 +183,7 @@ nav ul li a:hover::after{
     font-size: 14px;
     display: block;
     /* border: 1px solid white; */
-    font-size: large;
+    font-size: medium;
 }
 
 .tab-contents ul li span:nth-of-type(2){
@@ -610,11 +610,6 @@ nav .fa-solid{
 
     .copyright{
         font-size: 14px;
-    }
-
-    .container{
-        width: 100%;
-        overflow: hidden;
     }
 
     .work img{
