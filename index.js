@@ -78,5 +78,27 @@ form.addEventListener('submit', async (e) => {
     // Clear the message after 5 seconds
     setTimeout(() => {
         msg.textContent = '';
-    }, 4000);       //4 seconds
+    }, 4000);                                   //4 seconds
 });
+
+
+
+// Script to Send Form Data to your Google Sheet
+// Github Link to connect Contact form with Google Sheet: https://github.com/jamiewilson/form-to-google-sheets/ 
+// const scriptURL = 'https://script.google.com/macros/s/AKfycbw6LISpiqi7TbbIx1dWeo5lFyhG8H0mTlo4uvA_Za0jg-6vCtooIXycvlCkkUE1NRxb/exec'
+// const form = document.forms['submit-to-google-sheet']
+// const msg = document.getElementById("msg")
+
+// form.addEventListener('submit', e => {
+// e.preventDefault()
+// fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+//     .then(response => 
+//         {
+//             msg.innerHTML = "Message sent Successfully!"
+//             setTimeout(function(){
+//                 msg.innerHTML = ""
+//             },2000)
+//             form.reset()
+//         })
+//     .catch(error => console.error('Error!', error.message))
+// })

@@ -26,6 +26,8 @@ body{
 
 .container{
     padding: 10px 10%;
+    /* border: 1px solid white; */
+    /* height: 70vh; */
 }
 
 nav{
@@ -89,6 +91,10 @@ nav ul li a:hover::after{
     color: #ababab;
 }
 
+#about .container{
+    height: auto;
+}
+
 .tab-links{
     border: 1px solid transparent;
     padding: 10px 5px;
@@ -105,8 +111,7 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 
     margin-top: 40px;
-    /* border: 1px solid yellow; */
-    height: 550px;
+    /* height: 550px; */
 }
 
 .about-col-1{
@@ -125,6 +130,7 @@ nav ul li a:hover::after{
 .about-col-2{
     flex-basis: 60%;
     height: fit-content;
+    /* border: 1px solid white; */
 }
 
 .sub-title{
@@ -155,7 +161,7 @@ nav ul li a:hover::after{
     left: 6px;
     bottom: 5px;
     /* bottom: -8px; */
-    transition: 0.5s;
+    transition: 0.8s ;
 }
 
 /* .tab-links:hover:after{
@@ -169,11 +175,22 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    /* border: 1px solid yellow; */
 }
 
 .tab-contents ul li span{
     color: #ff004f;
     font-size: 14px;
+    display: block;
+    /* border: 1px solid white; */
+    font-size: large;
+}
+
+.tab-contents ul li span:nth-of-type(2){
+    color: #fff;
+    /* border: 1px solid white; */
+    margin-top: -10px;
+    margin-bottom: 1.5rem;
 }
 
 .tab-contents{
@@ -301,7 +318,7 @@ nav ul li a:hover::after{
     color: orange;
 }
 
-/* -----------------My Work Section----------------------- */
+/* -----------------My Work Section (Projects) ----------------------- */
 
 #portfolio{
     padding: 50px 0px;
@@ -322,6 +339,7 @@ nav ul li a:hover::after{
 }
 
 .work img{
+    height: 100%; 
     width: 100%;
     border-radius: 10px;
     display: inline-block;
@@ -369,6 +387,7 @@ nav ul li a:hover::after{
 
 .work:hover{
     transform: scale(1.1);
+    transition: transform 0.5s ease;
 }
 
 .work:hover .layer{
@@ -481,6 +500,16 @@ form .btn2{
     color: #ff004f;
 }
 
+/* after submission of form */
+#msg{
+    color: #61b752;
+    margin-top: -20px;
+    display: block;
+}
+
+
+
+
 
 
 
@@ -582,11 +611,15 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+
+    .container{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .work img{
+        height: 20vh; 
+        width: 20vh;
+    }
 }
 
-/* after submission of form */
-#msg{
-    color: #61b752;
-    margin-top: -20px;
-    display: block;
-}
