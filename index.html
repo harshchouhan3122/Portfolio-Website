@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Chouhan</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon_Harsh.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/421f530682.js" crossorigin="anonymous"></script>       <!-- Icons From FontAwesome Website --> 
+
+</head>
+<body>
+
+    <!--------------------------------------------- HOME Page ------------------------------------------>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo_bg.png" alt="logoNotFound" class="logo">                    <!-- CompanyLogo --> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#coding">Coding</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p> <span>Software Engineer</span></p>
+                <!-- <h1>Hi, I'm <span> Harsh </span> <br> Chouhan from INDIA. </h1> -->
+                <h1> <span> Hi, I'm </span> Harsh Chouhan  <br> <span> from INDIA. </span> </h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------------- ABOUT Section ------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row-about">
+
+                <div class="about-col-1">
+                    <img src="./images/img.png" alt="HarshChouhan">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p id="intro">My name is Harsh Chouhan. I'm graduated in B.Tech Electronics and Telecommunication Engineering from YCCE, Nagpur, 
+                        Passionate about Programming, Web Development, Machine Learning & UI/UX Designing, 
+                        Skilled in Python, JavaScript, SQL, and experienced in developing responsive websites and Python GUI, 
+                        Seeking opportunities to leverage my skills in software development and problem-solving within the IT industry.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievement')">Achievements </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>  <span> • Python • Java • Javascript  • SQL  • MongoDB  </span></li>
+                            <li><span>Web Development - MERN Stack</span><br> <span> • HTML  • CSS  • Bootstrap  • Tailwind  • EJS  • React  • ExpressJS • REST • Data Visualization • NodeJS </span></li>
+                            <!-- <li><span>Electronic Circuit Designing</span><br>PCB Designing, Soldering</li> -->
+                            <!-- <li><span>Embedded Programming</span><br>8051 uC, Aurduino, Raspberrypi, ATMega16 uC</li> -->
+                            <li><span>Software Packages</span><br> <span> • Git/Github • PyQt Designer • Excel • Canva/Figma • Auduino • BusMaster (CAN) </span></li>
+                            <li><span>Soft Skills</span><br> <span> • Marketing Skills • Creativity • Communication Skills • Leadership Qualities  </span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Software Engineer (Prime) | TCS, New Delhi | (March 2024-Present)</span><br> <span> •  Working as a Python Backend Developer. </span></li>
+                            <li><span>Software Engineer Intern | Devise Electronics, Pune | (May-Aug 2024)</span><br> <span> •  Designed an Authentication System for Keyless Operation of EV. <br>  •  Working on HMI GUI Designing.</span></li>
+                            <li><span>Web Developer & Designing Intern | Edunet Foundation, Nagpur | (Jan-March 2024)</span><br> <span> • Created responsive websites with HTML, CSS, and JavaScript for optimal user experience <a style="color: rgb(148, 171, 190); text-decoration: none;" target="_blank" href="https://harshchouhan3122.github.io/YCCE-Study_HUB/">(YCCE-StudyHUB)</a>.</span></li>
+                            <li><span>Research Intern | ISSA lab DRDO, Delhi | (July-Aug 2022)</span><br> <span> • Data Visualization and Analytical Study of Radar Systems and effects of parameters of RADAR on Radars and Jammers.</span></li>
+                            <li><span>Ninja Entrepreneur | Coding Ninjas | (Jan-June 2022)</span><br> <span>  • I helped my colleagues and aware them @Coding Ninjas different programs including Internships, Scholarships 
+                                and Courses etc.</span></li>
+                            <li><span>Campus Ambassador | Let Grow More | (Jan-Feb 2022)</span><br> <span> • I helped my colleagues and aware them regarding various opportunities to grow themselves. </span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech | Electronics and Telecommunication Engineering | 2020-2024</span><br> <span>  • CGPA : 8.67 <br>  • Per : 79.20 % <br>  • From Yeshwantrao Chavan College of Engineering, Nagpur </span></li>
+                            <li><span>CLASS XII (HSC) | PCM | 2020</span><br> <span> • Score : 83.50 % <br>   • From Kendriya Vidyalaya Shalimar Bagh, Delhi </span></li>
+                            <li><span>CLASS X (SSC) | 2018</span><br> <span> • Score : 91.00 % <br>   • From Kendriya Vidyalaya No.1 Chhindwara, MP </span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievement">
+                        <ul>
+                            <li><span>Score Cards</span><br> 
+                                  <span><a style="color: rgb(250, 250, 250); text-decoration: none;" target="_blank" href="https://drive.google.com/file/d/1DEc6SBJbl7q1JQCeMIiF98bf81ZAiBrL/view?usp=drive_link"> • GATE DSAI</a>   <a style="color: rgb(250, 250, 250); text-decoration: none;" target="_blank" href="https://drive.google.com/file/d/1DEc6SBJbl7q1JQCeMIiF98bf81ZAiBrL/view?usp=drive_link"> • GATE ECE</a> | March,2024<br> 
+                                  <a style="color: rgb(250, 250, 250); text-decoration: none;" target="_blank" href="https://drive.google.com/file/d/1jwGO2z5IqtK4EqPBRlGnMiKaz4JKORE_/view?usp=sharing"> • TCS NQT (IT)  <a style="color: rgb(250, 250, 250); text-decoration: none;" target="_blank" href="https://drive.google.com/file/d/1GeL6kWLrm0iK8w3rQTIb_wReAuuF-vuK/view?usp=sharingk"> • TCS NQT (Psychometric) </a></a> | Sept,2023<br> 
+                                  <a style="color: rgb(250, 250, 250); text-decoration: none;" target="_blank" href="https://drive.google.com/file/d/1lblqzoMD2ht99BzYt3S93Qu_OUe2TCLT/view?usp=sharing"> • AMCAT </a> |  Aug,2023<br>  
+                                </span></li>
+                            <li><span>Certifications / Licences</span> <br> <span> • April,2023 | Data Base Management System [IIT Kharagpur, NPTEL, 8 weeks] <br>• June,2022 | Microprocessors and Microcontrollers [IIT Kharagpur, NPTEL, 12 weeks] <br>  • Oct,2021 | NPTEL | The joy of computing using Python [IIT Madras, NPTEL, 12 weeks] </span></li>
+                            <li><span>Sports</span><br> <span>  • Oct 2022 | Nagpur University Sports (Badminton) <br> • June,2019 | Delhi Regional Sports (Badminton) </span></li>
+                            <li><span>Responsibilities</span><br> <span> • Database Head | ICON23.0 <br> • Technical Head | IRU22.0 <br> • Contributor | GDSC  </span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------Services Section----------------------------------------
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis officia, velit eos accusamus ratione? Nostrum vel officia, nobis inventore iste consectetur nisi exercitationem facere laboriosam rem aliquid possimus. Esse aliquam magnam accusamus natus quisquam quas dignissimos harum? Explicabo exercitationem asperiores excepturi harum fugiat, nobis quos obcaecati delectus? Fugit, quasi!</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis officia, velit eos accusamus ratione? Nostrum vel officia, nobis inventore iste consectetur nisi exercitationem facere laboriosam rem aliquid possimus. Esse aliquam magnam accusamus natus quisquam quas dignissimos harum? Explicabo exercitationem asperiores excepturi harum fugiat, nobis quos obcaecati delectus? Fugit, quasi!</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis officia, velit eos accusamus ratione? Nostrum vel officia, nobis inventore iste consectetur nisi exercitationem facere laboriosam rem aliquid possimus. Esse aliquam magnam accusamus natus quisquam quas dignissimos harum? Explicabo exercitationem asperiores excepturi harum fugiat, nobis quos obcaecati delectus? Fugit, quasi!</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!------------------------------------------ Project Section------------------------------------------>
+    <div id="project">
+        <div class="container">
+            <!-- <h1 class="sub-title">My Work</h1> -->
+            <h1 class="sub-title">Projects</h1>
+
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="./images/proj4.png" alt="">
+                    <div class="layer">
+                        <h3> Wanderlust </h3>
+                        <p>Engineered a rental platform for accommodations (rooms, mansions, farmhouses)
+                            with a responsive website featuring CRUD operations, authentication, and Leaflet
+                            map integration; streamlined file uploads using Multer and deployed on Render with
+                            MongoDB & AtlasDB, improving listing efficiency.</p>
+                        <a target="_blank" href="https://wanderlust-harsh.onrender.com/" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+    
+                <div class="work">
+                    <img src="./images/ChattyApp2.png" alt="ChattyApp">
+                
+                    <div class="layer">
+                        <h3>Chatty App - MERN</h3>
+                        <p>
+                            A full-stack Realtime Chat App built with Node.js, Express.js, Socket.IO, React and MongoDB. 
+                            It offers instant messaging, real-time updates, user authentication, profile management, 
+                            online user filtering, and customizable themes, all with a responsive design for seamless communication.                        </p>
+                        <a target="_blank" href="https://realtime-chat-app-kw74.onrender.com//" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/WeatherApp_React.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App - React</h3>
+                        <p>This Weather App is built using React and leverages a weather API to provide real-time 
+                            weather updates for any location. Users can search for cities and receive detailed information
+                             including temperature and humidity, and weather conditions. Real-time weather data using an API.</p>
+                        <a target="_blank" href="https://weather-app-react-five-lovat.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- % Water Irrigation System
+                % AIC Project
+                % IoT Simulated Project
+                % Python Project (Password and Plagiarism)
+                % Python Helmet Detection
+                % Python Helmet Detection & Challan Generation
+
+                % Web Dev Project
+                % Portfolio Website
+                % React Weather App
+                % Mern Wanderlust 
+                % Chatting App
+                % Game (Mini Project)
+                % Zoom Clone -->
+
+            </div>
+
+            <!-- Content will display after clicking See More Button -->
+            <div id="hiddenContent" class="work-list hidden">
+
+                <div class="work">
+                    <!-- <img src="./images/work1.jpg" alt=""> -->
+                    <img src="./images/proj1.png" alt="">
+                    <div class="layer">
+                        <h3>YCCE - StudyHUB</h3>
+                        <p>Revolutionizing student access to study resources such as PYQs, Notes, and Projects through our comprehensive multipage e-library platform. <br> 
+                            <b>(Currently active for ETC dept. only.)</b></p>
+                        <a target="_blank" href="https://harshchouhan3122.github.io/YCCE-Study_HUB/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/helmetDetection_challan.png" alt="">
+                    <div class="layer">
+                        <h3>HELMET DETECTION & CHALLAN SYSTEM</h3>
+                        <p>Worked on AI project to detect helmetless riders, capture number plates, and issue traffic violation challans to enhance road safety and enforcement efficiency.</p>
+                        <a href="https://drive.google.com/drive/folders/1OP2Z5EEJRil-LFtoWuFyB6fa-zao-0e5?usp=share_link" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/proj2.png" alt="">
+                    <div class="layer">
+                        <h3>LIVER DISEASE DETECTION</h3>
+                        <p>Created a machine learning model for early liver disease detection, utilizing data
+                            preprocessing and classification algorithms like KNN and HistGradient Boosting.</p>
+                        <a target="_blank" href="https://drive.google.com/drive/folders/1BxOwIL-dwuz5u4DOXbEFVsR0xRIwtaT2?usp=sharing" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/proj3.png" alt="">
+                    <div class="layer">
+                        <h3>SALES DASHBOARD PROJECT</h3>
+                        <p>Analyzed sales data, and created an Excel dashboard forthe Store, offering insights
+                            on sales trends, customer behavior, and channels forinformed decision-making.</p>
+                        <a target="_blank" href="https://drive.google.com/drive/folders/1iu7ms8rm9ZrRbTjYEF4ZVfyNovc7OoBO?usp=drive_link" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+
+            <a class="btn" onclick="unhideContent()" id="proj-btn">See More</a>
+            <!-- <a href="#project" class="btn" onclick="unhideContent()">See More</a> -->
+        </div>
+    </div>
+
+
+
+    <!------------------------------------------Coding Profile Section------------------------------------------>
+    <div id="coding">
+        <div class="container">
+            <h1 class="sub-title">Coding Profile</h1>
+            <div class="coding-list">
+                <a style="text-decoration: none; color: whitesmoke;" href="https://github.com/harshchouhan3122/" target="_blank">
+                    <div>
+                        <i class="fa-brands fa-github"></i>
+                        <h2>Github</h2>
+                        <h3> • username : harshchouhan3122</h3>
+                        <p id="desc">
+                            • Contributed to various open-source projects and personal projects on GitHub, showcasing proficiency in languages like Python, and JavaScript. Developed responsive web applications, implemented RESTful APIs, and collaborated with teams using version control tools like Git. 
+                            <!-- Recognized for contributions to the XYZ project, with multiple pull requests merged and positive feedback from the community. -->
+                        </p>
+                    </div>
+                </a>
+
+                <a style="text-decoration: none; color: whitesmoke;" href="https://leetcode.com/harsh3122/" target="_blank">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Leetcode</h2>
+                        <h3> • username : harsh3122</h3>
+                        <br>
+                        <h3> • 390+ Problems Solved </h3>
+                        <div id="desc-list">
+                            <ul>
+                                <li>Python : 280 problems</li>
+                                <li>SQL : 68 problems</li>
+                                <li>Java: 22 problems</li>
+                                <li>Pandas: 18 problems</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </a>
+
+                <a style="text-decoration: none; color: whitesmoke;" href="https://www.hackerrank.com/harshchouhan3122" target="_blank">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>HackerRank</h2>
+                        <h3> • username : harshchouhan3122</h3>
+                        <br>
+                        <h3> • Badges</h3>
+                        <div id="desc-list">
+                            <ul>
+                                <li>Python :   &ensp; (<span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span>) </li>
+                                <li>CPP :  &ensp; &ensp; &nbsp; (<span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span>)</li>
+                                <li>C :  &ensp; &ensp; &ensp; &nbsp; &nbsp; (<span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span>)</li>
+                                <li>Java :   &ensp; &ensp; &nbsp; (<span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> )</li>
+                                <!-- <li>Javascript :  &nbsp; (<span class="fa fa-star checked"></span>) </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+                
+                
+            </div>
+        </div>
+    </div>
+
+
+ <!------------------------------------------ Contact Section ------------------------------------------>
+ <!-- Github Link to connect Contact form with Google Sheet: https://github.com/jamiewilson/form-to-google-sheets/ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>harshchouhan3121@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 70421 37441</p>
+                    <div class="social-icons">
+                        <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+                        <a href="https://www.linkedin.com/in/harshchouhan3122/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/harshchouhan3122/"><i class="fa-brands fa-github "></i></a>
+                        <a href="https://www.instagram.com/harshchouhan3122/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/harshchouhan312"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://leetcode.com/harsh3122/" target="_blank" class="icon"><i class="fa-solid fa-code"></i></a>
+                    </div>
+
+                    <!-- <a href="./images/Harsh_Chouhan_Resume.pdf" download class="btn btn2" target="_blank">Download Resume</a> -->
+                    <a href="./images/HarshChouhan_Resume.pdf" id="downloadResume" class="btn btn2">Download Resume</a>                </div>
+                    
+                    <div class="contact-right">
+                        <!-- FormSpree form -->
+                        <form id="contact-form" action="https://formspree.io/f/xgvvrqoz" method="POST">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea style="resize: vertical;" name="Message" cols="6" rows="2" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+
+                </div>
+            </div>
+        <div class="copyright">
+            <!-- <p>Copyright <span>&#169;</span> Harsh. <i class="fa-solid fa-heart"></i> Made by Harsh Chouhan</p> -->
+            <p>Copyright <span>&#169;</span> Harsh Chouhan.</p>
+        </div>
+    </div>
+
+    <!-- External JS -->
+     <script src="./index.js"></script>
+
+
+</body>
+</html>
